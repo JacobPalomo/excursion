@@ -43,3 +43,25 @@ a:hover {
 img {
     margin: 32px;
 }
+
+.btn {
+    height: 48px;
+    display: inline-block;
+    padding: 14.25px 16px;
+    color: #fff;
+    background-color: #ccc;
+    border-radius: 4px;
+    margin-top: 24px;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #4169e1;
+}
+
+.btn-primary:hover {
+    background-color: #4b70dd;
+}
