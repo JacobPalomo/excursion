@@ -66,3 +66,29 @@ img {
 .btn-primary:hover {
     background-color: #4b70dd;
 }
+
+@media screen and (max-width: 1119px) {
+    section[id="home"] {
+        flex-direction: column;
+    }
+
+    section {
+        height: auto;
+        padding: 48px 0;
+        text-align: center;
+    }
+
+    video {
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    h1 {
+        font-size: 2.4em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+}
