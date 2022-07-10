@@ -8,6 +8,7 @@ body {
     color: #fff;
     background-color: #000;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 section {
@@ -43,6 +44,10 @@ a:hover {
 
 img {
     margin: 32px;
+}
+
+img[id="campImg"] {
+    width: 100%;
 }
 
 .btn {
@@ -90,5 +95,11 @@ img {
 
     h2 {
         font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    video {
+        width: 100%;
     }
 }
